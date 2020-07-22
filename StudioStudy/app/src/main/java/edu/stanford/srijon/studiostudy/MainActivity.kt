@@ -1,0 +1,13 @@
+package edu.stanford.srijon.studiostudy
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        Log.i("srijon", "wow this autocomplete is cool but unknown")
+    }
+}
